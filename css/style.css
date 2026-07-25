@@ -196,6 +196,15 @@ body {
     color: #0b5ed7;
     margin-bottom: 12px;
     font-size: 23px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    width: 1.1em;
+    height: 1.1em;
+    flex-shrink: 0;
 }
 
 .card p {
@@ -249,6 +258,9 @@ body {
 .feature-box h3 {
     color: #084298;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .info-section {
