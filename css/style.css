@@ -211,12 +211,23 @@ body {
     border-radius: 20px;
     box-shadow: 0 14px 40px rgba(0, 0, 0, 0.1);
     animation: slideUp 0.7s ease-in-out;
+    
 }
 
 .container h1 {
     color: #0b5ed7;
     margin-bottom: 12px;
     font-size: 36px;
+}
+.container img {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+    justify-content: center;
 }
 
 .page-description {
